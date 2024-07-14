@@ -9,3 +9,15 @@
 input {
   color-scheme: dark;
 }
+
+.rdp-day_selected,
+.rdp-day_selected:focus-visible,
+.rdp-day_selected:hover {
+  color: #1a2e05;
+  opacity: 1;
+  background-color: #a3e635; /* Cor das datas selecionadas, era aquele azul que o Diego tentou trocar*/
+}
+
+.rdp-button:hover:not([disabled]):not(.rdp-day_selected) {
+  background-color: #52525b; /* Cor do hover, a anterior deixava um back muito claro dificultando a visualização */
+}
